@@ -1,0 +1,4 @@
+.terraform
+privatekey.ppk
+plan.txt
+openssh.ppk
