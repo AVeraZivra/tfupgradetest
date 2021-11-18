@@ -1,5 +1,5 @@
 terraform {
-  required_version = "0.11.14"
+  required_version = ">=0.12.1"
 
   backend "s3" {
     bucket = "oldterraform-state"
@@ -9,3 +9,4 @@ terraform {
     region = "us-east-2"
   }
 }
+

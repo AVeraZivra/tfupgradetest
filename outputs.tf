@@ -1,5 +1,5 @@
 output "vpc" {
-  value = "${aws_vpc.main.id}"
+  value = aws_vpc.main.id
 }
 
 output "region" {
@@ -21,3 +21,4 @@ output "Private_subnets" {
     "${aws_subnet.private3.id}        ${aws_subnet.private3.cidr_block}     ${aws_subnet.private3.availability_zone}",
   ]
 }
+
