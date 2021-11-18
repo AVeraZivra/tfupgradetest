@@ -1,4 +1,4 @@
-region = "us-east-2"
+region      = "us-east-2"
 region_name = "ohio"
 
 vpc_cidr = "10.0.0.0/16"
@@ -18,6 +18,6 @@ az2 = "b"
 az3 = "c"
 
 tags = {
-    Name            = "VPC_Project"
-    Environment     = "Sandbox"
+  Name        = "VPC_Project"
+  Environment = "Sandbox"
 }
